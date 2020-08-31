@@ -14,6 +14,6 @@ public class ClienteController {
 
     @GetMapping("/cliente/{id}")
     public String getClienteById(@PathVariable int id){
-        return("Id: 1\nNome: Ryan\nSobrenome: Raul");
+        return("Id: 2\nNome: Ryan\nSobrenome: Raul");
     }
 }
